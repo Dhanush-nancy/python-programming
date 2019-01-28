@@ -1,10 +1,4 @@
-import sys
-try:
-    a=int(input("input:"))
-
-except ValueError:
-    print ("Error..numbers only")
-    sys.exit()
+a=int(input("input:"))
 if(a>0):
     print("output:positive")
 elif(a<0):
