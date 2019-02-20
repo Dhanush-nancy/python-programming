@@ -1,10 +1,10 @@
-num = int(input("enter a number: "))
- temp = num
-rev = 0
- while temp != 0:
-	rev = (rev * 10) + (temp % 10)
-	temp = temp // 10
- if num == rev:
-	print("number is palindrome")
-else:
-	print("number is not palindrome")
+num=int(input())
+if num > 1: 
+   for i in range(2, num//2): 
+       if (num % i) == 0: 
+           print(num, "is not a prime number") 
+           break
+   else: 
+       print(num, "is a prime number") 
+ else: 
+   print(num, "is not a prime number") 
